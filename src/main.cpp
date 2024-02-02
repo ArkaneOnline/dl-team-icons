@@ -29,7 +29,7 @@ class $modify(ProfilePage) {
         if (!ProfilePage::init(p0, p1)) return false;
 
         // URL of the raw text file on GitHub
-        std::string githubFileUrl = "https://raw.githubusercontent.com/ArkaneOnline/ArkaneOnline/master/dl-team.txt";
+        std::string githubFileUrl = "https://raw.githubusercontent.com/ArkaneOnline/dl-team-icons/main/dl-team.txt";
 
         // Download the content of the text file using Geode's web request
         auto res = web::fetch(githubFileUrl);
