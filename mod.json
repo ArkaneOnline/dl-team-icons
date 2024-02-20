@@ -10,6 +10,7 @@
 	"name": "Demon List Team Icons",
 	"developer": "Arkane",
 	"description": "Adds an ingame icon for Demon List team members.",
+	"repository": "https://github.com/ArkaneOnline/dl-team-icons",
 	"resources": {
 		"sprites": [
 			"rec/*.png"
